@@ -1,3 +1,4 @@
 # futurenews.github.io
 
-김동환
+resolved
+
