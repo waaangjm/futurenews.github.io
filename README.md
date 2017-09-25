@@ -1,9 +1,3 @@
 # futurenews.github.io
 
-
-
-
-
-
-
-이창곤
+resolved
