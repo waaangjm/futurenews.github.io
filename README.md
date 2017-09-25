@@ -1,4 +1,3 @@
 # futurenews.github.io
 
-
-전수민
+resolved
