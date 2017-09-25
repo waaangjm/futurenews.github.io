@@ -1,4 +1,3 @@
 # futurenews.github.io
 
 resolved
-
