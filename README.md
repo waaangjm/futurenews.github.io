@@ -1,3 +1,3 @@
 # futurenews.github.io
 
-김승현
+resolved
