@@ -1,3 +1,3 @@
 # futurenews.github.io
 
-Hanho L.
+resolved
