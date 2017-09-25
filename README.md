@@ -1,3 +1,4 @@
 # futurenews.github.io
 
-정재근
+resolved
+
