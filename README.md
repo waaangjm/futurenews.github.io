@@ -1,4 +1,4 @@
 # futurenews.github.io
 
+resolved
 
-오효정
