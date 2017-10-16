@@ -1,3 +1,269 @@
+<!DOCTYPE html>
 <html>
+<head>
+  <meta charset="utf-8">
+  <title>특수교육 Fact Check</title>
+</head>
+<body>
+<style>
+  body {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+  }
+  h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+  h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: #303030;
+      font-weight: 400;
+      margin-bottom: 30px;
+  }
 
+  .size{
+    width:70%;
+  }
+
+  .pic{
+    width:40%;
+  }
+
+  .sizedown{
+    width:50%;
+
+  }
+
+  .jumbotron {
+      background-color: #f4511e;
+      color: #fff;
+      padding: 100px 25px;
+      font-family: Montserrat, sans-serif;
+  }
+  .container-fluid {
+      padding: 60px 50px;
+  }
+  .bg-grey {
+      background-color: #f6f6f6;
+  }
+  .logo-small {
+      color: #f4511e;
+      font-size: 50px;
+  }
+  .logo {
+      color: #f4511e;
+      font-size: 200px;
+  }
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+  }
+  .thumbnail img {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 10px;
+  }
+  .carousel-control.right, .carousel-control.left {
+      background-image: none;
+      color: #f4511e;
+  }
+  .carousel-indicators li {
+      border-color: #f4511e;
+  }
+  .carousel-indicators li.active {
+      background-color: #f4511e;
+  }
+  .item h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      font-weight: 400;
+      font-style: italic;
+      margin: 70px 0;
+  }
+  .item span {
+      font-style: normal;
+  }
+  .panel {
+      border: 1px solid #f4511e;
+      border-radius:0 !important;
+      transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+      box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+      border: 1px solid #f4511e;
+      background-color: #fff !important;
+      color: #f4511e;
+  }
+  .panel-heading {
+      color: #fff !important;
+      background-color: #f4511e !important;
+      padding: 25px;
+      border-bottom: 1px solid transparent;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+      background-color: white !important;
+  }
+  .panel-footer h3 {
+      font-size: 32px;
+  }
+  .panel-footer h4 {
+      color: #aaa;
+      font-size: 14px;
+  }
+  .panel-footer .btn {
+      margin: 15px 0;
+      background-color: #f4511e;
+      color: #fff;
+  }
+  .navbar {
+      margin-bottom: 0;
+      background-color: #f4511e;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #f4511e !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+  footer .glyphicon {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #f4511e;
+  }
+  .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+  }
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<div class="jumbotron text-center">
+  <h1>특수교육 환경 현황 Check-up!</h1>
+  <!--<form>
+    <div class="input-group">
+      <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-danger">Subscribe</button>
+      </div>
+    </div>
+  </form> -->
+</div>
+
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <p>지난 9월 5일 강서지역 공진초등학교 자리에 예정된 특수학교 신설 주민토론회가 열렸다. 하지만 장애인 학생 학부모들과 강서구 주민들 사이이 갈등이 고조되면서 학부모들이 특수학교 설립을 호소하기 위해 무릎을 꿇는 일이 화제가 되었다. 서울시 교육청의 계획에 따르면 2016년 3월 공진초등학교 부지에 장애인 특수학교가 완공될 예정이었지만, 주민들의 강한 반발로 일단 계획이 철회되었다. 이후 서울시 교육청은 강서구 마곡지구 등에 대체 부지를 확보하려 했지만 좋은 성과를 내지 못해 다시 공진초등학교 자리에 특수학교를 짓기로 한 것이다. 이번 사건이 온라인에서 큰 이슈가 되면서 우리나라 특수교육 환경에 대한 관심도 점점 커지고 있다. 따라서 현재 우리나라 특수학교와 특수학급 현황이 어떠한지 살펴볼 필요가 있다.
+      </p>
+      <p> 2012년에 교육부는 “특수학교와 특수학급을 조기에 신, 증설해 장애 학생이 거주 지역에서 장애유형과정도에 적합한 특수교육을 받을 수 있도록 할 것”이라며 특수학교와 특수학급을 대폭 늘릴 것이라는 계획을 밝힌 바 있다. 3년안에 특수학교 21 개 교와 특수학급 2300 학급을 신, 증설하겠다고 홍보했다. 구체적으로 특수학교의 경우, 2012년에 3개교→2013년에  7개교 →2014년 에 11개교를 늘려 3년 간 총 21개교를 짓고, 특수학급은2012년에  797학급→ 2013년에  795학급→2014년에  795학급씩 늘려 3년 간 2300여학급을 늘리겠다는 것이 그들의 약속이었다.
+        </p>
+      <p> 하지만, 교육부의 주장에 대한 팩트 체크를 실행한 결과 이는 거짓으로 드러났다. 2012년부터 3년동안 특수학교와 학급 신설은 당초 약속한 숫자의 절반도 미치지 못한 것으로 확인 됐다. 해당 기간에는 총 11개만의 특수학교가 설립 됐고 940 학급이 늘어났다고 한다.
+</p>
+      <div class="size">
+      <div class='tableauPlaceholder' id='viz1508137263478' style='position: relative'><noscript><a href='#'><img alt='연도별 특수학교 수 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_14386&#47;10&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='2' /> <param name='site_root' value='' /><param name='name' value='_14386&#47;10' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_14386&#47;10&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1508137263478');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+      </script>
+      <div class='tableauPlaceholder' id='viz1508137937378' style='position: relative'><noscript><a href='#'><img alt='연도별 특수학급 수  ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_15208&#47;11&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='2' /> <param name='site_root' value='' /><param name='name' value='_15208&#47;11' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_15208&#47;11&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1508137937378');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+      </script>
+    </div>
+<div class="row">
+  <div class="col-sm-8">
+    <p>해당 팩트 체크 내용은 연도별 특수학교 및 특수학급 수 그래프에서 확인할 수 있다. 2007년부터 전국의 특수학교와 특수학급 수는 꾸준히 증가하고 있는 추세이지만 결론적으로는 교육부가 약속한 결과에는 한참 못 미친다. 약속 시점에서부터 5년이 지난 현재 아직까지 총 18개의 특수학교만 신설됐다. 2012년에는 1개, 2013년에는 6개, 2014년에 4개, 2015년에는 1개 교가 가 신설되면서 오히려 증설이 감소했다. 그 이후 작년부터 3개교가 설립되고 있지만 증가율이 높지 않고 특수교육대상자 수에 비해 매우 떨어지는 수치이다. 특수학급도 마찬가지로 연도별로 증가하고 있는 추세이지만, 개설 학급 수만 봤을 때는 2011년부터 하락하고 있다. 올해에 비로소 260개의 학급이 개설되면서 비로소 작년보다 많은 학급이 추가된 것으로 나타난다.
+</p>
+<p>하지만 교육부에서는 특수학교와 특수학급이 증가하고 있는 점을 언급하며 장애학생들을 위한 지원이 지속적으로 이뤄지고 있다고 주장한다. 하지만 특수학교를 실제로 다니는 학생들의 수를 보면 아직 더 많은 지원이 필요한 것을 알 수 있다. 현재 특수교육 대상자는 2012년에 85012명에서 2017년에는 89,353명으로 증가했다. 약 4341명이 증가한 것이다. 하지만 여전히 특수학교를 다니는 학생들의 수는 전체 학생 수의 반 이하이다. 또한 약 1/5의 학생들은 일반학급에서 교육을 받는 것을 알 수 있다.
+</p>
+<div class="size">
+  <div class='tableauPlaceholder' id='viz1508138191667' style='position: relative'><noscript><a href='#'><img alt='특수교육 대상자 수 및 특수학교, 특수학급, 일반학급 학생 수 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_8&#47;_8574&#47;7&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='2' /> <param name='site_root' value='' /><param name='name' value='_8574&#47;7' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_8&#47;_8574&#47;7&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1508138191667');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+</div>
+<div class="row">
+  <div class="col-sm-8">
+    <p>그렇다면 특수학교 설립 현황이 지역별로는 어떻게 다를까? 국내 특수학교들은 주로 서울과 경기지역 주변에 밀집되어 있었다. 서울에 29개교, 경기도에 35개교가 설립되어 있다. 메일경제에 의하면, “서울시의 경우 지난 2002년 종로구에 개교한 경운학교 이후 15년 간 신설된 특수학교는 올해 초 개교한 강북구 미아동의 효정학교 단 1곳뿐”이라고 한다.
+이 외의 지역에는 특수학교가 10개도 없는 지역도 많다.
+</p>
+<div class="size">
+<div class='tableauPlaceholder' id='viz1508139503064' style='position: relative'><noscript><a href='#'><img alt='지역별 특수 학교 수 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_15207&#47;3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='2' /> <param name='site_root' value='' /><param name='name' value='_15207&#47;3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_15207&#47;3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1508139503064');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+</div>
+<div class="pic">
+<img src="https://s3.ap-northeast-2.amazonaws.com/elasticbeanstalk-ap-northeast-2-044030252423/public/uploads/attachment/object/266/팩트-3.4.png"/>
+<p>출처:메일경제 레이더P 2017-09-25</p>
+  </div>
+<p>장애 영역별로 특수교육대상자의 수를 봐도 특수 학교의 필요성을 알 수 있다. 장애영역별 특수교육대상자는 지적장애의 경우 48084명, 시각장애는 2026명이다. 하지만 지적장애 학교는 121개, 시각장애인 특수학교는 전국에 12개밖에 없다. 현재 특수학교들 종류가 장애영역별 학생 비율에는 맞지만, 그 개 수가 아직 많이 부족한 상황이다. 또한 자폐나 발달장애와 같은 장애를 위한 학교는 아예 존재하지 않는다.
+</p>
+<div class="sizedown">
+  <div class='tableauPlaceholder' id='viz1508141312312' style='position: relative'><noscript><a href='#'><img alt='장애영역별 특수교육 대상자 수 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_15212&#47;13&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='2' /> <param name='site_root' value='' /><param name='name' value='_15212&#47;13' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_15212&#47;13&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1508141312312');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  </script>
+<div class='tableauPlaceholder' id='viz1508141287161' style='position: relative'><noscript><a href='#'><img alt='장애영역별 특수학교 수 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_15214&#47;12&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='2' /> <param name='site_root' value='' /><param name='name' value='_15214&#47;12' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_15214&#47;12&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1508141287161');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+</div>
+<div class="row">
+  <div class="col-sm-4">
+<p>강서구 특수학교 논란에 교육부는 “"특수학교를 2022년까지 향후 5년간 18곳을 신설해 특수교육 여건을 개선하겠다"고 밝혔다. 현재까지의 현황을 살펴본 결과 이 또한 실현 가능한지 팩트 체크가 추가적으로 필요한 주장이다. 또한 단순히 특수학교의 수만 늘리는 것 보다 지역별, 장애 영역별 필요를 정확히 파악해서 계획적으로 정책을 실현 시킬 필요가 있을 것이다.
+</p>
+</div>
+</div>
+</body>
 </html>
