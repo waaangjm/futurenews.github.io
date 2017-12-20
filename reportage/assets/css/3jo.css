@@ -1359,19 +1359,19 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #8cd1a8;
+		color: #8A402C;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent !important;
-			color: #8cd1a8 !important;
+			color: #8A402C !important;
 			text-decoration: none;
 		}
 
 
 	strong, b {
-		color: #61686b;
+		color: #4B3A35;
 		font-weight: 700;
 	}
 
