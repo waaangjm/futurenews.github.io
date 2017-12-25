@@ -1,5 +1,7 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,800");
+@import url("http://fonts.googleapis.com/earlyaccess/hanna.css");
+@import url("http://fonts.googleapis.com/earlyaccess/jejugothic.css");
 
 /*
 	Highlights by HTML5 UP
@@ -1366,6 +1368,7 @@
 			text-decoration: none;
 		}
 
+
 	strong, b {
 		color: #61686b;
 		font-weight: 700;
@@ -1924,6 +1927,7 @@
 		header.major p {
 			margin-top: 0;
 		}
+
 
 /* Form */
 
@@ -2632,6 +2636,8 @@
 			box-shadow: inset 0 1px 0 0 #dddddd;
 		}
 
+
+
 			.main .container:before {
 				min-height: calc( 100vh - 13em );
 				content: '';
@@ -2674,6 +2680,63 @@
 			.main .goto-next:hover {
 				background-color: rgba(144, 144, 144, 0.15);
 			}
+/*for 4조*/
+			.main .goto-next2 {
+				-moz-transition: background-color 0.2s ease-in-out;
+				-webkit-transition: background-color 0.2s ease-in-out;
+				-ms-transition: background-color 0.2s ease-in-out;
+				transition: background-color 0.2s ease-in-out;
+				background-color: rgba(144, 144, 144, 0.3);
+				background-image: url("images/arrowdown.svg");
+				background-position: center center;
+				background-repeat: no-repeat;
+				border-radius: 30%;
+				border: 0;
+				bottom: 1em;
+				display: block;
+				height: 4em;
+				left: 50%;
+				line-height: 4em;
+				margin-left: -2em;
+				overflow: hidden;
+				position: absolute;
+				text-indent: 4em;
+				white-space: nowrap;
+				width: 4em;
+			}
+
+			.main .goto-next2:hover {
+				background-color: rgba(144, 144, 144, 0.15);
+			}
+
+			.main .goto-previous {
+				-moz-transition: background-color 0.2s ease-in-out;
+				-webkit-transition: background-color 0.2s ease-in-out;
+				-ms-transition: background-color 0.2s ease-in-out;
+				transition: background-color 0.2s ease-in-out;
+				background-color: rgba(144, 144, 144, 0.3);
+				background-image: url("images/arrowup.svg");
+				background-position: center center;
+				background-repeat: no-repeat;
+				border-radius: 30%;
+				border: 0;
+				top:1em;
+				display: block;
+				height: 4em;
+				left: 50%;
+				line-height: 4em;
+				margin-left: -2em;
+				overflow: hidden;
+				position: absolute;
+				text-indent: 4em;
+				white-space: nowrap;
+				width: 4em;
+				}
+
+				.main .goto-previous:hover {
+					background-color: rgba(144, 144, 144, 0.15);
+				}
+				/*for 4조*/
 
 /* Header */
 
@@ -2829,6 +2892,22 @@
 				padding: 3em 3em 8em 3em ;
 			}
 
+			/* by 4조 */
+			.main .container4jo {
+				padding: 3em 3em 8em 3em ;
+			}
+			.main .container4jo:before {
+				display: none;
+			}
+			.main .container4jolong {
+				padding: 3em 3em 8em 3em ;
+			}
+			.main .container4jolong:before {
+				display: none;
+			}
+
+			/*by 4조*/
+
 				.main .container:before {
 					display: none;
 				}
@@ -2880,6 +2959,22 @@
 				padding: 3em 1.5em 1em 1.5em ;
 			}
 
+   /* by 4조*/
+			.main .container4jo {
+				padding: 3em 1.5em 1em 1.5em ;
+			}
+			.main .container4jo .image.primary:first-child {
+				margin: -1.5em 0 2.5em 0;
+			}
+			.main .container4jolong {
+				padding: 3em 1.5em 1em 1.5em ;
+			}
+			.main .container4jolong .image.primary:first-child {
+				margin: -1.5em 0 2.5em 0;
+			}
+
+
+ 		/*by 4조*/
 				.main .container .image.primary:first-child {
 					margin: -1.5em 0 2.5em 0;
 				}
@@ -3012,6 +3107,21 @@
 					margin: -2em 0 2.5em 0;
 				}
 
+				.main .container4jo {
+					padding: 3em 1em 1em 1em ;
+				}
+
+					.main .container4jo .image.primary:first-child {
+						margin: -2em 0 2.5em 0;
+					}
+					.main .container4jolong {
+						padding: 3em 1em 1em 1em ;
+					}
+
+						.main .container4jolong .image.primary:first-child {
+							margin: -2em 0 2.5em 0;
+						}
+
 		/* Footer */
 
 			#footer .container {
@@ -3029,4 +3139,337 @@
 					padding: 0;
 				}
 
+
 	}
+
+/* ----------------------------by 4조--------------------------------------- */
+
+header.major4jo {
+	text-align: center;
+}
+
+	header.major4jo h1, header.major4jo h2, header.major4jo h3, header.major4jo h4, header.major4jo h5, header.major4jo h6 {
+		position: relative;
+		margin-top: 1.5em;
+	}
+
+		header.major4jo h1:after, header.major4jo h2:after, header.major4jo h3:after, header.major4jo h4:after, header.major4jo h5:after, header.major4jo h6:after {
+			background: #dddddd;
+			content: '';
+			display: block;
+			height: 2px;
+			margin: 0.75em auto 0 auto;
+			position: relative;
+			width: 4em;
+		}
+
+	header.major4jo p {
+		margin-top: 0;
+	}
+
+		.main .container4jo{
+			padding: 5em 2.5em 8em 2.5em ;
+			background: rgba(0, 0, 0, 0.5);
+			box-shadow: inset 0 1px 0 0 #dddddd;
+		}
+
+		.main .container4jo:before {
+			min-height: calc( 100vh - 13em );
+			content: '';
+			display: inline-block;
+			vertical-align: middle;
+			width: 1px;
+		}
+
+		.main .container4jo .content4jo {
+			display: inline-block;
+			margin-right: 1px;
+			vertical-align: middle;
+			/* 4조 글자크기 조절 파트 */
+			width: calc(100% - 430px);
+			margin-bottom:-1.5em;
+		}
+
+		.main .container4jolong{
+			padding: 5em 2.5em 8em 2.5em ;
+			background: rgba(0, 0, 0, 0.5);
+			box-shadow: inset 0 1px 0 0 #dddddd;
+		}
+
+		.main .container4jolong:before {
+			min-height: calc( 100vh - 13em );
+			content: '';
+			display: inline-block;
+			vertical-align: middle;
+			width: 1px;
+		}
+
+		.main .container4jolong .content4jo {
+			display: inline-block;
+			margin-right: 1px;
+			vertical-align: middle;
+			/* 4조 글자크기 조절 파트 */
+			width: calc(100% - 200px);
+			margin-bottom:-1.5em;
+		}
+
+
+.modal {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+  background: rgba(0,0,0, .5);
+  transition: opacity .7s ease
+}
+.modal_bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+	background-color: rgba(0,0,0, .8);
+	z-index:1;
+}
+.modal-state {
+  display: none;
+	z-index:1;
+}
+.modal-state:checked + .modal {
+  opacity: 1;
+  visibility: visible;
+	z-index:1;
+}
+
+.modal-state:checked + .modal .modal__inner {
+  top: 0;
+	z-index:1;
+}
+
+.modal_inner {
+  transition: top .7s ease;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  margin: auto;
+  overflow: auto;
+  background: rgb(200,200,200);
+  border-radius: 5px;
+  padding: 1em 2em;
+  height: 95%;
+	z-index: 3;
+}
+
+
+.modal_close {
+  position: fixed;
+  right: 1em;
+  top: 1em;
+  width: 1.1em;
+  height: 1.1em;
+  cursor: pointer;
+	z-index:1;
+}
+
+.modal_close:after,
+.modal_close:before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 1.5em;
+  background: #ccc;
+  display: block;
+  transform: rotate(45deg);
+  left: 50%;
+  margin: -3px 0 0 -1px;
+  top: 0;
+	z-index:1;
+}
+
+.modal_close:hover:after,
+.modal_close:hover:before {
+  background: #aaa;
+	z-index:1;
+}
+
+.modal_close:before {
+  transform: rotate(-45deg);
+	z-index:1;
+}
+
+@media screen and (max-width: 768px) {
+
+  .modal_inner {
+    width: 90%;
+    height: 90%;
+    box-sizing: border-box;
+  }
+}
+
+.btn {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	background-color: transparent;
+	border-radius: 2em;
+	border: 0;
+	box-shadow: inset 0 0 0 2px #dddddd;
+	color: rgb(255,255,255) !important;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 700;
+	height: 3em;
+	letter-spacing: 0.05em;
+	line-height: 3.15em;
+	padding: 0 2em;
+	width: 15em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+.btn:hover,
+.btn:focus {
+	background-color: rgba(144, 144, 144, 0.075);
+	color: #61686b !important;
+}
+
+.navbar {
+	height: 100%;
+	width: 100px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.07);
+	overflow-x: hidden;
+	padding-top: 20px;
+	z-index: 0;
+	padding-bottom: 20px;
+	overflow:hidden;
+}
+
+.navbar a {
+	padding: 20% 4px 20% 4px;
+	text-decoration: none;
+	font-size: 15px;
+	color: #818181;
+	display: block;
+	z-index:0;
+	text-align:Center;
+}
+
+.navbar a:hover{
+	color : rgba(255,255,255,1)	!important;
+	background-color: rgba(0,0,0,0.8) !important;
+}
+
+@media screen and (max-height: 450px) {
+    .navbar {padding-top: 15px;}
+    .navbar a {font-size: 18px;}
+		z-index: 0;
+}
+
+#footer .goto-previous {
+	-moz-transition: background-color 0.2s ease-in-out;
+	-webkit-transition: background-color 0.2s ease-in-out;
+	-ms-transition: background-color 0.2s ease-in-out;
+	transition: background-color 0.2s ease-in-out;
+	background-color: rgba(144, 144, 144, 0.3);
+	background-image: url("images/arrowup.svg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-radius: 30%;
+	border: 0;
+	top:1em;
+	display: block;
+	height: 4em;
+	left: 50%;
+	line-height: 4em;
+	margin-left: -2em;
+	overflow: hidden;
+	position: absolute;
+	text-indent: 4em;
+	white-space: nowrap;
+	width: 4em;
+	}
+
+	#footer .goto-previous:hover {
+		background-color: rgba(144, 144, 144, 0.15);
+	}
+
+
+		.notstyleFont
+		{
+				color:rgb(200,200,200) !important;
+				text-align:left !important;
+				font-size: 18pt !important;
+				line-height: 250% !important;
+				font-family: 'Hanna', serif !important;
+		}
+
+		.notstyleFontLong
+		{
+				color:rgb(200,200,200) !important;
+				text-align:left !important;
+				font-size:15pt !important;
+				font-family: 'Hanna', serif !important;
+		}
+
+
+		.notstyleSize
+		{
+				font-size:28pt !important;
+				line-height:150% !important;
+				color:rgb(200,200,200) !important;
+				font-family: 'Hanna', "Raleway", "Helvetica", sans-serif !important;
+
+		}
+
+		.smallFont
+		{
+			font-size:12pt !important;
+			text-align:right !important;
+
+		}
+
+		.articleTitle{
+			font-size:30pt !important;
+			font-family: 'Jeju Gothic', "Raleway", "Helvetica", sans-serif !important;
+			color:black !important;
+			text-align: center !important;
+		}
+
+		.articleContent{
+			font-size:15pt !important;
+			font-family: 'Hanna', "Raleway", "Helvetica", sans-serif !important;
+		}
+
+		.reference{
+			text-align:right !important;
+			font-size:10pt !important;
+			line-height:150% !important;
+		}
+
+		.footer4jo{
+			color:white !important;
+			font-family: 'Hanna', "Raleway", "Helvetica", sans-serif !important;
+			background-color: rgba(0,0,0,0.5) !important;
+
+		}
+
+
+		/* ----------------------------by 4조--------------------------------------- */
