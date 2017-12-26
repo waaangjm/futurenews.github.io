@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>서울대학교 영어 강의 factcheck</title>
+</head>
+<body>
+<style>
+  body {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+  }
+  h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+  h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: #303030;
+      font-weight: 400;
+      margin-bottom: 30px;
+  }
+
+  .size{
+    width:70%;
+  }
+
+  .sizepie{
+    width:50%;
+  }
+
+  .pic{
+    width:40%;
+  }
+
+  .sizedown{
+    width:50%;
+
+  }
+
+  .jumbotron {
+      background-color: #1d2984;
+      color: #fff;
+      padding: 100px 25px;
+      font-family: Montserrat, sans-serif;
+  }
+  .container-fluid {
+      padding: 60px 50px;
+  }
+  .bg-grey {
+      background-color: #f6f6f6;
+  }
+  .logo-small {
+      color: #f4511e;
+      font-size: 50px;
+  }
+  .logo {
+      color: #f4511e;
+      font-size: 200px;
+  }
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+  }
+  .thumbnail img {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 10px;
+  }
+  .carousel-control.right, .carousel-control.left {
+      background-image: none;
+      color: #f4511e;
+  }
+  .carousel-indicators li {
+      border-color: #f4511e;
+  }
+  .carousel-indicators li.active {
+      background-color: #f4511e;
+  }
+  .item h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      font-weight: 400;
+      font-style: italic;
+      margin: 70px 0;
+  }
+  .item span {
+      font-style: normal;
+  }
+  .panel {
+      border: 1px solid #f4511e;
+      border-radius:0 !important;
+      transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+      box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+      border: 1px solid #f4511e;
+      background-color: #fff !important;
+      color: #f4511e;
+  }
+  .panel-heading {
+      color: #fff !important;
+      background-color: #f4511e !important;
+      padding: 25px;
+      border-bottom: 1px solid transparent;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+      background-color: white !important;
+  }
+  .panel-footer h3 {
+      font-size: 32px;
+  }
+  .panel-footer h4 {
+      color: #aaa;
+      font-size: 14px;
+  }
+  .panel-footer .btn {
+      margin: 15px 0;
+      background-color: #f4511e;
+      color: #fff;
+  }
+  .navbar {
+      margin-bottom: 0;
+      background-color: #f4511e;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #f4511e !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+  footer .glyphicon {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #f4511e;
+  }
+  .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+  }
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<div class="jumbotron text-center">
+  <h1>세계 속의 서울대, 하지만 '세계'는 어디?</h1>
+  <h1>  - 영어 강의 800개 개설은 사실인가?</h1>
+  <!--<form>
+    <div class="input-group">
+      <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-danger">Subscribe</button>
+      </div>
+    </div>
+  </form> -->
+</div>
+
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <p>서울대학교는 2010년에 2차 국제화사업을 시작한 이후 외국인 학생 유치에 힘써왔고 그 덕분에 매년 다양한 국적의 학생들이 학교를 찾는다. 2017년 현재에는 정규 학위과정 이수생, 교환학생과 어학연수생을 포함해 총 2561명의 외국인 학생들이 재학중이며 이는 재학생 정원의(25560명) 10%나 되는 숫자이다. 하지만 여전히 학교에 자신들을 위한 환경이 제대로 마련되어 있지 않다고 느끼는 외국인 학생들이 많다. 그리고 그들이 가장 아쉬워 하는 부분은 강의 체계이다. 아직까지 외국인 학생들을 위한 영어 강의 수가 부족하거나 제대로 운영되고 있지 않다는 것이 그들의 주장이다.
+      </p>
+      <p> 하지만, 학교는 외국인 학생들을 위한 홈페이지에 서울대학교에 입학해야 하는 이유로 “800개가 넘는 영어 강좌가 개설되어 있고, 그 수가 매우 급증하고 있다”고 홍보하고 있다. 많은 외국인 학생들은 이 정보를 보고 영어로 학업을 진행 할 수 있을 것이라는 기대와 함께 서울대학교에 지원한다. 그렇다면 과연 영어 강의 개설 현황에 대한 학교 측의 이러한 홍보 내용은 사실일까?
+      </p>
+<h2>영어 강의 800강좌 팩트체크 </h2>
+
+      <div class="size">
+      <div class='tableauPlaceholder' id='viz1514299042258' style='position: relative'><noscript><a href='#'><img alt='연도별 영어 강의 수 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;5S&#47;5S2DKDPX8&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;5S2DKDPX8' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;5S&#47;5S2DKDPX8&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1514299042258');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+      </script>
+    </div>
+<div class="row">
+    <p>영어 강의 800 강좌 개설이 사실인지 팩트체크하기 위해 2013년부터 현재까지 5년간 매 학기 개설된 영어 강의 수를 계산해보았다. 매 학기 개설 된 강의 수를 확인한 결과 학사, 석사, 박사, 석박사 통합 강의들을 모두 합쳐 지난 2년간 매 학기 800개가 넘는 영어 강의가 개설 된 것은 사실이었다. 그리고 2013년 1학기에 728개의 강좌에서 2017년 2학기에 841강좌가 개설되면서 강의 수가 늘어난 것도 대체적으로 사실이다. 하지만 2016년 2학기에 비해 올해 더 적은 수의 강의가 개설된 것으로 보아 학교측의 주장처럼 영어 강의가 “매우 급증”하고 있다고 보기는 어렵다.
+    </p>
+<h2>영어 강의에 대학영어도 포함?</h2>
+<p>통계만 보면 서울대학교에 영어 강의가 800개 이상 개설되는 것은 사실이지만 문제는 이 수치에는 교양 영어 필수 과목인 기초영어, 대학영어, 고급영어 강의도 포함되어 있는 것이다. 지난 5년간 100개가 넘는 교양 영어 수업이 개설됐고 이 과목들을 빼면 총 영어 강의 수는 2017년 2학기 기준으로 709개이며, 학사 과정의 경우 전체 강의의 6.1%에 불과하다. 대학영어 수업도 영어 강의는 맞지만, 외국인 학생들이 필요로 하는 수업이 아니다. 이들은 영어를 배우기 위해 서울대학교에 온 것이 아니다. 09학번 이후로 외국인 재학생들도 TEPS 점수에 따라 대학영어를 필수로 이수해야 하는 규정이 있지만, 이는 정규 학위 과정 이수자들에게만 해당한다. 교환 학생과 어학연수 학생들은 대학 영어를 수강할 필요가 없다. 또한 외국에서 영어 학교에 5년 이상 다닌 외국인 학생의 경우 대학 영어 중 ‘고급영어: 학술작문’ 수업만 수강하도록 학칙에 규정되어 있다. 즉, 100여개의 영어 강의를 모두 수강할 수 있는 것이 아니다. 따라서 영어 강의 800개 개설이라는 말에는 몇 가지 문제들이 존재한다. 800개 중 모든 강의가 외국인 학생들을 위한 것은 아니며 그 수업들을 제외하면 개설된 강좌도 800개가 안되다. 따라서 이 사실을 모르는 학생들에게는 학교측의 주장에 상당한 오해의 소지가 있다.
+</p>
+<h2>외국인 학생 수요와 전공 영어 강의 개설 현황</h2>
+<p>그렇다면 대학영어를 제외한 709개의 강의는 어떤 수업들일까? 2017년 2학기 기준으로 모든 단과대에서 영어강의를 제공하고 있지만 그 비율은 각 대학마다 다르다. 현재 개설된 전공 강의들이 외국인 학생들의 수요를 충족하는지 알아보자.
+</p>
+<div class="sizepie">
+<div class='tableauPlaceholder' id='viz1514299855027' style='position: relative'><noscript><a href='#'><img alt='학사 전공계열별 외국인 학생 비율 (2017년) ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_17898&#47;6&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='_17898&#47;6' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_17898&#47;6&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1514299855027');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+<div class="col-sm-4">
+<div class='tableauPlaceholder' id='viz1514300571356' style='position: relative'><noscript><a href='#'><img alt='전공계열에 따른 학사 영어강의 비율 (2017년 2학기) ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;8Q&#47;8QZNR2C35&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;8QZNR2C35' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;8Q&#47;8QZNR2C35&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1514300571356');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4">
+    <p>정규 학위과정 이수 학생들을 기준으로 전공별 분포를 보면 학사 과정에서는 공학계열이 43.47%로 가장 많고 그 다음 28.57%로 인문사회계열 학생들이 많다. 하지만 데이터를 보면 2017년 2학기에 개설된 전공 영어 강의들은 이러한 분포를 제대로 반영하고 있지 않는 것으로 나타난다. 전공계열에 따른 학사 영어강의 비율을 확인한 결과, 인문사회계열 과목들이 가장 많았고, 외국인 학생이 가장 많은 공학계열 수업은 전체 영어 강의의 22%밖에 되지 않았다.
+      석/박사 과정의 경우, 인문사회계열 학생들이 49.65%로 가장 많고 공학계열 학생들이 18.91%로 두번째로 많다. 하지만 전공 강의 비율은 자연과학계열 수업이 45.9% 가장 많고 전체 개설 강좌의 16%만 인문사회계열 수업이다.
+</p>
+<div class="sizepie">
+<div class='tableauPlaceholder' id='viz1514301465123' style='position: relative'><noscript><a href='#'><img alt='석사 전공계열별 외국인 학생 비율 (2017년) ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Q6&#47;Q69NXC2M2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;Q69NXC2M2' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Q6&#47;Q69NXC2M2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1514301465123');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+ </script>
+ <div class='tableauPlaceholder' id='viz1514301502876' style='position: relative'><noscript><a href='#'><img alt='전공계열에 따른 석사 영어강의 비율 (2017년 2학기) ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;J9&#47;J9FFZCXTT&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;J9FFZCXTT' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;J9&#47;J9FFZCXTT&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1514301502876');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+ </script>
+</div>
+<p>또한 특정 단과대에 강의가 편중되어 있는 것을 확인할 수 있다. 인문사회계열의 경우, 주로 경영대와 사범대에서 영어강의가 개설되고 인문대학은 사회과학대학은 한국어 강좌는 200개가 넘는 반면 영어 강의는 각각 10개, 9개의 강좌만 제공될 뿐이다. 인문대학의 경우 영어 강의 수강이 졸업 필수 조건 중 하나이기 때문에 국내 학생들의 수요도 높다.
+</p>
+  </div>
+<div class="size">
+  <div class='tableauPlaceholder' id='viz1514301813770' style='position: relative'><noscript><a href='#'><img alt='단과대별 한국어&#47;영어 강의 수 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_17893&#47;1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='_17893&#47;1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_17893&#47;1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1514301813770');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  </script>
+</div>
+<h2>외국인 학생들도 한국어로 공부할 수 있다?</h2>
+<p>서울대에 왔으니 외국인 학생들도 한국어로 공부해야 한다고 주장하는 사람들도 있다. 실제로 한국어 실력이 좋아서 한국어 강의를 수강하는 외국인 학생들도 많다. 하지만 이는 엄연히 전체 외국인 재학생의 일부이다. 학사 과정 외국인 학생 중 TOPIK 한국어 능력시험 4등급 이상인 학생은 2017년 기준, 196명중 47명 뿐이다. 이는 24%의 학생들만 언어능력을 충족하는 것으로 나머지 76% 학생들은 여전히 한국어를 어려워 한다.또한 서울대학교 입학 조건에 한국어 능력은 필수가 아니다. 외국인 학생 모집 요강에는 한국어 “또는” 영어 능력 점수를 제출하라고 명시되어 있다. 즉 한국어를 못해도 영어를 할 수 있으면 학교를 다닐 수 있다. 하지만 현재 학교의 학업 환경은 영어만 잘 하면 되는 환경이 아니다.
+</p>
+</div>
+<div class="row">
+  <div class="col-sm-4">
+<h2>외국인 학생들도 학습권 보장 받아야 한다</h2>
+<p>팩트체크 결과 학교의 홍보 내용대로 영어 강의 800개 이상 개설은 사실이었지만, 이 중 일부는 외국인 학생들에게 필요한 강의가 아닌 것으로 드러났다. 따라서 완전하게 정확한 정보는 아니라는 점을 유의해야 한다. 학교가 외국인 학생들의 필요를 고려하지 않은 채 오직 더 많은 학생 유치를 위해 학교 환경을 실제보다 더 과장되게 포장하는 일은 없어야 한다. 서울대학교는QS University Ranking에서 세계 36위 대학이라고 자부하지만 아직 외국인 학생들을 위한 학습 환경은 미흡하다. 현재 개설된 영어 강의들이 외국인 학생들의 수요를 모두 충족하지 못하고 있으며 이들은 제한된 강의를 수강하기 위해 다른 외국인 학생들뿐만 아니라 국내 학생들과도 경쟁해야 한다.
+하지만 단순히 영어 강의 수를 늘리는 것 뿐만 아니라 강의의 질을 높이는 것도 매우 중요하다. 학생들의 경험담에 의하면 공식적으로는 영어 강의라고 표기 되어 있지만 한국인 수강생이 더 많다는 이유로 교수가 수업을 한국어로 진행하는 경우도 있다고 한다. 실제로 외국인 학생 L (체육교육학과 14) 학우는 “영어 강의라고 해서 신청을 했는데 강의 자료만 영어로 되어있고 교수님이 설명은 한국어로 하셨다.”고 말했다.
+서울대가 진정 세계 속으로 가고 싶다면 교내 10%를 차지하는 외국인 학생들이 제한된 영어 강의에만 의존하지 않고 국내 학생들과 같은 수준의 학습권을 보장 받는 환경이 마련되어야 할 것이다.
+</p>
+</div>
+</div>
+</body>
+</html>
