@@ -1,0 +1,26 @@
+p{
+	text-indent: 60px;
+
+	margin-top: 6px;
+
+    margin-bottom: 6px;
+
+    margin-right: 6px;
+
+    margin-left: 6px;
+
+    line-height:180%;
+}
+
+
+.container{
+	background-color : rgba(255,255,255, 0.85);
+}
+
+body{
+  background-image: url(http://cfile2.uf.tistory.com/image/275B0E3C57F08B9E241EA2);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-size:  cover;
+}
