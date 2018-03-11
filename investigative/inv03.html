@@ -1,40 +1,66 @@
-<!DOCTYPE html>
-<html>
-
+<!doctype html>
+<html lang="ko">
   <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <title>미래뉴스실습1 2018</title>
-  </head>
+    <title>미래뉴스실습</title>
 
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style type="text/css">
+
+    .jumbotron{
+      margin-top: 20px;
+      background-image: url("img/communication.png");
+      background-size: cover;
+      color: white;
+    }
+    </style>
+  </head>
   <body>
 
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand"> <small>서울대학교 언론정보학과 &nbsp; | &nbsp; <b>미래뉴스실습</b> </small></a>
-        </div>
-        <ul class="nav navbar-nav">
-          <li><a href="../index.html">전체보기</a></li>
-          <li><a href="../interactive/interactive.html">인터랙티브</a></li>
-          <li class="active"><a href="investigative.html">탐사보도</a></li>
-          <li><a href="../reportage/reportage.html">현장학습</a></li>
-          <li><a href="../class/class.html">수업소개</a></li>
+    <!-- Site Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand"><small> 서울대학교 언론정보학과 | 미래뉴스실습 </small></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link" href="../index.html">전체보기</a></li>
+          <li class="nav-item"><a class="nav-link" href="../interactive/interactive.html">인터랙티브</a></li>
+          <li class="nav-item active"><a class="nav-link" href="investigative.html">탐사보도</a></li>
+          <li class="nav-item"><a class="nav-link" href="../reportage/reportage.html">현장학습</a></li>
+          <li class="nav-item"><a class="nav-link" href="../class/class.html">수업소개</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">지난수업</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://futurenews.github.io/2017-futurenews2/">2018-2학기 미래뉴스실습II</a>
+            </div>
+          </li>
         </ul>
       </div>
     </nav>
+    <!-- End of Site Navigation -->
 
 
     <div class="container">
 
-      <h2> 탐사보도 기사제목 </h2>
-      <h4> 작성자 </h4>
-      <hr class="primary"> <!--빈줄긋기 -->
+      <div class="row"> <!-- 제목줄 -->
+        <div class="col">
+          <p>
+            <h3> 탐사보도 기사제목 </h3>
+            <h5> 작성자 </h5>
+          </p>
+        </div>
+      </div>
 
-      <!-- begin div for row1 -->
+      <hr class="primary"> <!-- 빈줄긋기 -->
+
+      <!-- begin div for 내용1 -->
       <div class="row">
-
         <div class="col-md-12">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim tellus in massa malesuada semper a eu arcu. Sed ipsum turpis, efficitur at diam mollis, porttitor rhoncus sem. Praesent nec lectus rhoncus, ultrices leo eu, eleifend risus. Nam sodales dictum massa sed malesuada. Vestibulum vitae quam nisl. Aenean eget elit eget metus condimentum suscipit sit amet at dolor. Aliquam erat volutpat. Donec congue iaculis commodo. Nulla tincidunt auctor nisi, vel dictum arcu facilisis nec. Suspendisse potenti. Fusce aliquet, risus ac sollicitudin ullamcorper, enim purus mollis libero, consectetur cursus leo massa et leo. Aliquam venenatis nibh ac sapien scelerisque, sit amet interdum est feugiat.
@@ -43,14 +69,12 @@
             Curabitur ac tellus placerat, pretium enim a, venenatis arcu. In elit lectus, suscipit vel placerat nec, tincidunt nec libero. Proin congue quam ut massa aliquam, id semper ligula eleifend. Integer et purus at elit imperdiet gravida. Nunc ante risus, fringilla vitae ipsum at, rutrum congue ante. Etiam ex ex, dignissim a egestas et, commodo nec metus. Mauris luctus tincidunt tristique. Phasellus blandit imperdiet dignissim. In eget tempus sapien. Pellentesque suscipit tortor justo, sit amet iaculis purus viverra vitae. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam eleifend volutpat luctus. Vivamus risus massa, accumsan id sollicitudin sollicitudin, congue nec risus. Donec nulla enim, auctor id viverra eu, egestas in eros.
           </p>
         </div>
-        <!-- end div for col-md-12 -->
-
       </div>
-      <!-- end div for row1 -->
+      <!-- end div for 내용1 -->
 
-      <hr class="primary"> <!--빈줄긋기 -->
+      <hr class="primary"> <!-- 빈줄긋기 -->
 
-      <!-- begin div for row2 -->
+      <!-- begin div for 내용2 -->
       <div class="row">
         <div class="col-md-6">
           <p>
@@ -66,12 +90,19 @@
           </p>
         </div>
       </div>
-      <!-- end div for row2 -->
+      <!-- end div for 내용2 -->
 
       <hr class="primary"> <!--빈줄긋기 -->
 
     </div>
     <!-- end div for container -->
+
+    <!-- 이 아래부터는 무시하세요! -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
   </body>
 </html>
